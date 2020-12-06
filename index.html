@@ -3,15 +3,39 @@
 <html>
 
     <head>
-        <link type="stylesheet/css" url="style.css">
+        <link href="style.css" rel="stylesheet">
         <title>Google</title>
     </head>
     
     
     <body>
 
-        <form action="submit">Type your search</form>
+        <div class="navbar" id="navbar-top">
+        <ul>
+            <li><a href="default.asp">Gmail</a></li>
+            <li><a href="news.asp">Billeder</a></li>
+            <li><a href="contact.asp">Google-apps</a></li>
+            <li><a href="about.asp">Profil</a></li>
+          </ul>
+        </div>
 
+
+    <div class="main-div">
+        <form class="search-form" action="/search" method="GET">
+            <div class="google-div">
+                <image id="logo-id" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></image>
+            </div>
+            <div class="searchbox-div">
+                <input class="searchboxipt" type="search" id="search" default="Søg">
+            </div>
+            <div class="searchsubmit-div">
+                <center>
+                <input class="searchbuttons" type="submit" value="Google-søgning">
+                <input class="searchbuttons" type="submit" value="Jeg prøver lykken">
+                </center>
+            </div>
+        </form>
+    </div>
     </body>
 
 </html>
