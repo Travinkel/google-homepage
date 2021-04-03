@@ -1,0 +1,82 @@
+li {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.profil-billede {
+    border-radius: 100%;
+    width: 40px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #222;
+    padding: 8px;
+}
+
+.leftalign {
+    float: left;
+}
+
+.rightalign {
+    float: right;
+}
+
+#button-apps {
+    display: inline-grid;
+    grid-template-columns: 6px 6px 6px;
+    grid-template-rows: 6px 6px 6px;
+    grid-gap: 1px;
+    transform: translate(0, -35%);
+    padding: 1px;
+    margin: 1px;
+}
+
+.grid-item {
+    background-color: grey;
+    border: 1px solid white;
+    padding: 3%;
+}
+
+#search-id {
+    -webkit-appearance: none;
+}
+
+.flex {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.navbar {
+    text-align: right;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main-div {
+    padding-top: 2px;
+    text-align: center;
+}
+
+.searchbox-div {}
+
+.searchbox {}
+
+.searchbuttons {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-linear-gradient(top, #f8f9fa, #f8f9fa);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}

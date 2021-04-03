@@ -2,40 +2,78 @@
 
 <html>
 
-    <head>
-        <link href="style.css" rel="stylesheet">
-        <title>Google</title>
-    </head>
-    
-    
-    <body>
+<head>
+    <link rel="styles/stylesheet" href="reset.css" media="all">
+    <link href="styles/style.css" rel="stylesheet">
+    <title>Google</title>
+</head>
+
+
+<body>
+
+    <div class="flex">
 
         <div class="navbar" id="navbar-top">
-        <ul>
-            <li><a href="default.asp">Gmail</a></li>
-            <li><a href="news.asp">Billeder</a></li>
-            <li><a href="contact.asp">Google-apps</a></li>
-            <li><a href="about.asp">Profil</a></li>
-          </ul>
+
+
+            <ul class="leftalign">
+                <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+                </li>
+                <li><a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+                </li>
+            </ul>
+
+
+
+            <ul class="rightalign">
+                <li><a href="https://www.google.com/gmail/">Gmail</a></li>
+                <li><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Billeder</a></li>
+                <li>
+                    <a href="https://www.google.com/intl/en/about/products?tab=wh" id="button-apps">
+
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/Travinkel/google-homepage" value="Profil">
+                        <img class="profil-billede" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></i>
+                    </a>
+                </li>
+
+            </ul>
         </div>
 
 
-    <div class="main-div">
-        <form class="search-form" action="/search" method="GET">
-            <div class="google-div">
-                <image id="logo-id" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></image>
-            </div>
-            <div class="searchbox-div">
-                <input class="searchboxipt" type="search" id="search" default="Søg">
-            </div>
-            <div class="searchsubmit-div">
-                <center>
-                <input class="searchbuttons" type="submit" value="Google-søgning">
-                <input class="searchbuttons" type="submit" value="Jeg prøver lykken">
-                </center>
-            </div>
-        </form>
+        <div class="main-div">
+            <form class="search-form" action="/search" method="GET">
+                <div class="google-div">
+                    <image id="logo-id" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+                    </image>
+                </div>
+                <div class="searchbox-div">
+                    <input class="searchbox" type="search" id="search" default="Søg">
+                </div>
+                <div class="searchsubmit-div">
+                    <center>
+                        <input class="searchbuttons" type="submit" value="Google-søgning">
+                        <input class="searchbuttons" type="submit" value="Jeg prøver lykken">
+                    </center>
+                </div>
+            </form>
+        </div>
+
     </div>
-    </body>
+
+</body>
 
 </html>
